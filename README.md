@@ -1,5 +1,5 @@
 # Smart Contract Audits and Testing
-  Welcome to my smart contract audit and testing repository. This project showcases my skills in carefully auditing smart contracts to ensure their security and optimize gas usage. The repository contains smart contracts that have been audited using [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna). Tested using [Foundry](https://github.com/foundry-rs/foundry) .
+  Welcome to my smart contract audit and testing repository. This project showcases my skills in carefully auditing smart contracts to ensure their security and optimize gas usage. The repository contains smart contracts that have been audited using [Slither](https://github.com/crytic/slither),[Echidna](https://github.com/crytic/echidna) and [Foundry](https://github.com/foundry-rs/foundry).
 
  ## Terminal Installation Commands
  1.Foundry(for development and testing):
