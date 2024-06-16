@@ -49,7 +49,7 @@ cd src
 echidna CollateralProtectionInsurance.sol --contract CollateralProtectionInsuranceEchidnaTest
 echidna CryptoWalletInsurance.sol --contract CryptoWalletInsuranceEchidnaTest
 ```
-We will se results like this after running fuzz tests:
+Results after running fuzz tests:
 
 ![ech2](https://github.com/skpkss/Unhackable_Contracts/assets/107455544/7fff890a-244f-4b47-8f5b-526ec03a1419)
 ![ech3](https://github.com/skpkss/Unhackable_Contracts/assets/107455544/5df37520-ade1-482b-a0d8-d9a1a323cfd3)
