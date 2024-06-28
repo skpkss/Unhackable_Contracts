@@ -1,5 +1,5 @@
 # Smart Contract Audits and Testing
-  Welcome to my smart contract audit and testing repository.This repository contains smart contracts that have been audited using [Slither](https://github.com/crytic/slither) , [Echidna](https://github.com/crytic/echidna) and [Foundry](https://github.com/foundry-rs/foundry).
+  Welcome to my smart contract audit and testing repository.This repository contains smart contracts that have been audited using [Slither](https://github.com/crytic/slither) , [Echidna](https://github.com/crytic/echidna) , [Foundry](https://github.com/foundry-rs/foundry) , [Mythril](https://github.com/Consensys/mythril).
 
  ## Terminal Installation Commands
  1.Foundry(for development and testing):
@@ -33,13 +33,23 @@ cd src
 slither CryptoWalletInsurance.sol
 slither CollateralProtectionInsurance.sol
 ```
-3.solc (Solidity Compiler):
+3.Mythril(analysis techniques, including taint analysis and symbolic execution)
+ ```
+pip3 install slither-analyzer
+```
+Using Mythril for particular smart contracts:
+```
+cd src
+myth analyze CryptoWalletInsurance.sol
+myth analyze CollateralProtectionInsurance.sol
+```
+4.solc (Solidity Compiler):
  ```
 pip3 install solc-select
 solc-select install 0.8.26
 solc-select use 0.8.26
 ```
-4.Echidna(for more advanced fuzz testing)
+5.Echidna(for more advanced fuzz testing)
 ```
 brew install echidna
 ```
