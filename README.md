@@ -35,7 +35,7 @@ slither CollateralProtectionInsurance.sol
 ```
 3.Mythril(analysis techniques, including taint analysis and symbolic execution)
  ```
-pip3 install slither-analyzer
+pip3 install mythril
 ```
 Using Mythril for particular smart contracts:
 ```
